@@ -16,25 +16,25 @@ const Hero = () => {
           <h1 className='hero-title'>WE PROVIDE DEVOPS SERVICES</h1>
 
           <div className='sub-heading'>
-            <TitleSm title='GitOps' /> <span>.</span>
-            <TitleSm title='CloudOps' /> <span>.</span>
-            <TitleSm title='DevOps' />  <span>.</span>
-            <TitleSm title='DevSecOps' /> <span>.</span>
-            <TitleSm title='FinOps' /> 
+            <div className="flex1"><TitleSm title='GitOps' /> <span>.</span></div>
+            <div className="flex1"><TitleSm title='CloudOps' /> <span>.</span></div>
+            <div className="flex1"><TitleSm title='DevOps' />  <span>.</span></div>
+            <div className="flex1"><TitleSm title='DevSecOps' /> <span>.</span></div>
+            <div className="flex1"><TitleSm title='FinOps' /> </div>
           </div>
         </div>
       </section>
-      <section className='hero-sec'>
+      <section id="about" className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
             <Title title='The last agency you ll ever need' />
             <p>Managing a DevOps infrastructure comes with its set of challenges, from the swift
-evolution of technology to the intricacies of system integrations and escalating
-demands that can burden your team. Our DevOps Consulting services for cloud
-solutions provide seamless maintenance, boundless scalability, and enhancedperformance. Whether it's migrating to innovative platforms, adding new technology
-layers, conducting audits, establishing continuous integration and continuous
-deployment (CI/CD), monitoring, or securing your existing and future environments, we
-are dedicated to fulfilling all your DevOps consulting needs.</p>
+            evolution of technology to the intricacies of system integrations and escalating
+            demands that can burden your team. Our DevOps Consulting services for cloud
+            solutions provide seamless maintenance, boundless scalability, and enhancedperformance. Whether it's migrating to innovative platforms, adding new technology
+            layers, conducting audits, establishing continuous integration and continuous
+            deployment (CI/CD), monitoring, or securing your existing and future environments, we
+            are dedicated to fulfilling all your DevOps consulting needs.</p>
           </div>
           <div className='hero-content grid-4 '>
             {home.map((item, i) => (
@@ -51,7 +51,7 @@ are dedicated to fulfilling all your DevOps consulting needs.</p>
       <Banner />
       {/* <Testimonial /> */}
       {/* <ShowCase /> */}
-      {/* <Brand /> */}
+      <Brand />
 
       {/* <div className='text-center'>
         <Title title='Latest news & articles' />

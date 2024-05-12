@@ -20,14 +20,16 @@
     overflow-x: hidden !important;
   }
   .hero-title {
-    font-size: $xll-3;
+    font-size: 5rem;
     line-height: 115px;
     font-weight: 600;
     margin: $xl-6 0;
   }
   .sub-heading {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     .titleSm {
       margin: 0 $xl-1;
     }
@@ -313,7 +315,16 @@ footer {
   }
 }
 
+// @media screen  and (max-width: 500px) {
+//   .hero-title {
+//     font-size: 4rem;
+//   }
+  
+// }
+
 @media screen and (max-width: 800px) {
+
+
   .banner {
     .container {
       @include flex(center, none, column);

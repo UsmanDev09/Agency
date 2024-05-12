@@ -6,7 +6,7 @@ import React from "react"
 const Services = () => {
   return (
     <>
-      <section className='agency bg-top'>
+      <section id="services" className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='SERVICES' /> <br />

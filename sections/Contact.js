@@ -9,7 +9,7 @@ import { IoLocationOutline } from "react-icons/io5"
 const Contact = () => {
   return (
     <>
-      <section className='contact bg-top'>
+      <section id="contact" className='contact bg-top'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='CONTACT' /> <br />

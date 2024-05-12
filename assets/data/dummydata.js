@@ -51,19 +51,19 @@ export const expertise = [
   {
     id: 2,
     title: "CloudOps",
-    cover: "../images/e2.png",
+    cover: "../images/e2.svg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
     title: "DevOps",
-    cover: "../images/e3.png",
+    cover: "../images/e3.svg",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
     id: 4,
     title: "DevSecOps",
-    cover: "../images/e4.png",
+    cover: "../images/e4.svg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
 ]
@@ -138,28 +138,41 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    cover: "../images/aws.svg",
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    cover: "../images/google-cloud.svg",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    cover: "../images/microsoft-azure.svg",
   },
   {
     id: 4,
-    cover: "../images/l4.svg",
+    cover: "../images/ibm.svg",
   },
   {
     id: 5,
-    cover: "../images/l5.svg",
+    cover: "../images/github.svg",
   },
   {
     id: 6,
-    cover: "../images/l6.svg",
+    cover: "../images/gitlab.svg",
   },
+  {
+    id: 7 ,
+    cover: "../images/jenkins.svg",
+  },
+  {
+    id: 8 ,
+    cover: "../images/circleci.svg",
+  },
+  {
+    id: 9 ,
+    cover: "../images/kubernetes.svg",
+  },
+  
 ]
 export const blogdata = [
   {

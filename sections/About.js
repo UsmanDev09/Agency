@@ -6,7 +6,7 @@ import { Title, TitleSm } from "@/components/common/Title"
 const Agency = () => {
   return (
     <>
-      <section className='agency bg-top'>
+      <section id="about" className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='ABOUT AGENCY' /> <br />

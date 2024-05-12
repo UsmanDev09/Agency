@@ -24,17 +24,20 @@ const Header = () => {
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
-            <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
+            <Link href='#home' className={activeLink == "/" ? "activeLink" : "none"}>
               Home
             </Link>
-            <Link href='/' className={activeLink == "/about" ? "activeLink" : "none"}>
+            <Link href='#about' className={activeLink == "/about" ? "activeLink" : "none"}>
               About
             </Link>
-            <Link href='/' className={activeLink == "/services" ? "activeLink" : "none"}>
+            <Link href='#services' className={activeLink == "/services" ? "activeLink" : "none"}>
               Services
             </Link>
-            <Link href='/' className={activeLink == "/contact" ? "activeLink" : "none"}>
+            <Link href='#contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
+            </Link>
+            <Link href='#tools' className={activeLink == "/contact" ? "activeLink" : "none"}>
+              Tools
             </Link>
             {/* <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
               Team
